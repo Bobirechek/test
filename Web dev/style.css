@@ -1,0 +1,16 @@
+div {
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+button {
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+    font-size: 30px;
+}
