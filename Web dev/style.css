@@ -1,16 +1,54 @@
-div {
-    width: 500px;
-    height: 200px;
-    background-color: green;
-    color: red;
+body, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: rgb(23, 122, 23);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
 }
-button {
+.calculator {
+    padding: 0 0;
     width: 500px;
-    height: 50px;
-    background-color: blue;
+    height: 574px;
+    border: 2px solid black;
+}
+
+input {
+    padding: 0 0;
+    margin: 0 0;
+    width: 496px;
+    height: 70px;
+    font-size: 50px;
+    text-align: right;
+}
+
+input:focus {outline: none;}
+
+.btns {
+    padding: 0, 0;
+    margin: 0, 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0 0;
+    margin: 0 0;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(116, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
+    border: 0 0;
+    border-color: black;
+}
+
+sub {
+    font-size: 15px;
+    align-items: end;
+    margin-bottom: 17px;
 }
